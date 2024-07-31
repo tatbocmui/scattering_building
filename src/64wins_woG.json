@@ -1,0 +1,68 @@
+{
+    "tpw": {
+        "aE_TM": 1.0,
+        "af": 6524000000.0,
+        "atheta0": 90.0,
+        "aphi0": 45.0
+    },
+    "tplate": {
+        "aLx": 0.28,
+        "aLy": 0.28,
+        "aLz": 0.32
+    },
+    "iNumberWindows": 2,
+    "tholes": [
+        {
+            "aa": 0.04,
+            "ab": 0.055,
+            "ac": -0.135,
+            "adx": 0.14,
+            "ady": 0.032,
+            "adz": -0.0475,
+            "positionHole": "x"
+        },
+        {
+            "aa": 0.05,
+            "ab": 0.055,
+            "ac": -0.135,
+            "adx": 0.032,
+            "ady": 0.14,
+            "adz": -0.0475,
+            "positionHole": "y"
+        }
+    ],
+    "tglass": [
+        {
+            "ac1": -0.138,
+            "aGlassThickness": 0.0,
+            "avarepsilon_rr": 7.2,
+            "avarepsilon_ri": 0.151
+        },
+        {
+            "ac1": -0.138,
+            "aGlassThickness": 0.0,
+            "avarepsilon_rr": 7.2,
+            "avarepsilon_ri": 0.151
+        }
+    ],
+    "ibonusFrEvMod": 6,
+    "ibonusSlEvMod": 3,
+    "aphiStep": 0.25,
+    "athetaStep": 1.0,
+    "athetaOP": 90.0,
+    "aDeltaAnglePhi0Phi": 45.0,
+    "iwriteFile": 1,
+    "ienable2DPlot": 0,
+    "ienablePolarPlot": 0,
+    "ienableFinitePlate": 1,
+    "ienableTEPol": 1,
+    "ienableSlabEvMode": 0,
+    "ienable3DPlot": 0,
+    "ienablePOCalculation": 0,
+    "ienable2DPlot_t90": 0,
+    "ienableMonoStaticPlot": 0,
+    "ienableMonoStaticRCSPlot": 0,
+    "ienableBiObjRotPlot": 1,
+    "directoryPath": "G:\\マイドライブ\\D1\\MultipleWindows\\Results\\results\\BSTObjRot\\infiniteLz\\horizontal\\",
+    "historyFolderPath": "G:\\マイドライブ\\D1\\MultipleWindows\\HistoryResult_realModel\\"
+}
