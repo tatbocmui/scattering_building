@@ -44,6 +44,8 @@ Thus, the total scattering field of the building with multiple windows can be ap
 
 ![Building with Multiple Windows](images/GUI.png)
 ![Pattern](images/pattern.png)
+![Building design in Autodesk Inventor](images/building_rect.png)
+![Building scale model](images/buildingModel.png)
 
 <p style="font-size: larger;">Due to privacy concerns, the original computation files of the program have been deleted. <strong>They will be uploaded after I complete my PhD on March 31, 2025!</strong></p>
 
