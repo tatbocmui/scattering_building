@@ -47,7 +47,7 @@ Thus, the total scattering field of the building with multiple windows can be ap
 ![CalculationTime](images/calculationTime.png)
 ![Building design in Autodesk Inventor](images/building_rect.png)
 ![Building scale model](images/buildingModel.png)
-
+![Building measurement validity](images/validity_measurement.png)
 <p style="font-size: larger;">Due to privacy concerns, the original computation files of the program have been deleted. <strong>They will be uploaded after I complete my PhD on March 31, 2025!</strong></p>
 
 ## References
@@ -57,3 +57,10 @@ C.M. Bui, K. N. Nguyen and H. Shirai,
 “Electromagnetic wave scatterin analysis by a window aperture on a conducting wall,"
 Progress In Electromagnetics Research C, vol. 122, pp. 95–108, 2022.
 <a href="https://doi.org/10.2528/PIERC22041501">DOI:10.2528/PIERC22041501</a>
+
+<a id="2">[2]</a> 
+C.M. Bui, and H. Shirai,
+“High frequency plane wave scattering analysis by large buildings with multiple windows,"
+IEICE Trans. Electron., vol. E108-C, no. 4, April 2025.
+<a href="https://doi.org/10.1587/transele.2024REP0001">DOI:10.1587/transele.2024REP0001</a>
+
