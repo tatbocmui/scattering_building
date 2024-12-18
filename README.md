@@ -4,16 +4,28 @@ This repository contains the code and documentation for calculating the scatteri
 The KA method is a well-known high-frequency technique used in electromagnetics to approximate the scattered field by large, smooth surfaces.
 
 ## Project Overview
+Electromagnetic (EM) waves are fundamental to modern technologies, especially wireless communication systems, which rely on either directed or diffracted waves for information transmission.
+As illustrated in Fig. 1 (a), signals can be transmitted either directly from the antenna to the device (yellow arrow) (Light of Sight-LOS) or through diffraction (red arrow).
+In rural environments with minimal high-rise construction (Fig. 1 (b)), directed wave propagation often dominates.
+However, in urban environments, understanding EM scattering becomes even more critical due to the abundance of tall buildings and complex structures.
+Buildings can block, reflect, or diffract EM waves resulting in signal degradation, delays, or weak connections. When buildings block the LOS path, communication relies on the scattering field to transmit signals.
+Buildings are the dominant scatterers determining propagation properties in urban areas. Over half of the global population currently resides in urban areas, according to the World Bank.
+This number is expected to increase significantly to 6 billion by 2045, growing by a factor of 1.5.
+Thus, understanding how EM waves scatter in such environments is essential for designing efficient wireless networks that ensure smooth signal coverage across urban areas and help minimize signal interference.
+This will become even more important as more high-rise buildings are built in urban areas and technologies that rely on strong wireless connections, such as smart cities and the Internet of Things (IoT), become more common.
+Additionally, calculating these scattering effects allows for optimizing communication designs without the need for extensive physical measurements or simulations that often require high-performance, costly computational resources.
+
+![Introduction signal propagation](images/introduction_signal_propagation.png)
 
 In this project, we focus on the analysis of electromagnetic wave scattering by a complex structure such as a building with multiple windows.
 The Kirchhoff Approximation (KA) method is utilized to model the scattering effects.
 The KA method approximates the scattering by assuming equivalent magnetic currents on virtually closed surfaces on the windows and the exterior of the building.
 These currents are induced by the incident plane wave and the subsequent interaction fields within the windows.
-he electromagnetic field inside the window apertures is represented in terms of rectangular waveguide modes.
+The electromagnetic field inside the window apertures is represented in terms of rectangular waveguide modes.
 This allows for the theoretical calculation of the reflection and transmission of the modal field at the window glass layers using waveguide modal theory.
 When the distance between windows is significantly larger than the wavelength,
 the interaction between the windows can be considered negligible.
-Thus, the total scattering field of the building with multiple windows can be approximated by superimposing the results obtained for each individual window.
+Thus, the total scattering field of the building with multiple windows can be approximated by superposition the results obtained for each individual window.
 
 ## Features
 
@@ -48,6 +60,8 @@ Thus, the total scattering field of the building with multiple windows can be ap
 ![Building design in Autodesk Inventor](images/building_rect.png)
 ![Building scale model](images/buildingModel.png)
 ![Building measurement validity](images/validity_measurement.png)
+![Bistatic_pattern_7stories_building](images/pattern_2.png)
+
 <p style="font-size: larger;">Due to privacy concerns, the original computation files of the program have been deleted. <strong>They will be uploaded after I complete my PhD on March 31, 2025!</strong></p>
 
 ## References
