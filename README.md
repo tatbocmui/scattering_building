@@ -32,6 +32,12 @@ When the distance between windows is significantly larger than the wavelength,
 the interaction between the windows can be considered negligible.
 Thus, the total scattering field of the building with multiple windows can be approximated by superposition the results obtained for each individual window.
 
+## Future Works
+
+My current research focuses on computational field simulation for individual buildings.
+With the ultimate goal of optimizing antenna or radio frequency device placement for seamless connectivity across multiple buildings within a smart city context,
+the future work will expand the current simulation methods, which work well for single buildings, to cover an entire city. 
+
 ## Features
 
 - **Implementation of Kirchhoff Approximation (KA)**: The code implements the KA method to calculate the scattered field from the building structure.
