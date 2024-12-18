@@ -37,9 +37,8 @@ Thus, the total scattering field of the building with multiple windows can be ap
 ## Repository Contents
 
 - **src/**: Contains the source code for the scattering field calculation.
-- **examples/**: Example scripts demonstrating the usage of the code with different building and window configurations.
-- **docs/**: Documentation files, including theoretical background, usage instructions, and detailed explanations of the KA method.
-- **tests/**: Unit tests to ensure the correctness of the implementation.
+- **images/**: Contains images.
+- **docs/**: Documentation files, including theoretical background, usage instructions, and detailed explanations of the KA method. (Updating...)
 
 ## Prerequisites
 
