@@ -34,9 +34,10 @@ Thus, the total scattering field of the building with multiple windows can be ap
 
 ## Future Works
 
-My current research focuses on computational field simulation for individual buildings.
-With the ultimate goal of optimizing antenna or radio frequency device placement for seamless connectivity across multiple buildings within a smart city context,
-the future work will expand the current simulation methods, which work well for single buildings, to cover an entire city. 
+My current research focuses on computational field simulation for individual buildings. 
+With the ultimate goal of optimizing antenna or radio frequency device placement for seamless connectivity across multiple buildings within a smart city context, 
+the future work will expand the current simulation methods, which work well for single buildings, to encompass entire city-wide scenarios, 
+utilizing geographic-based electromagnetic wave propagation analysis and its visualization to inform and guide our optimization strategies.
 
 ## Features
 
