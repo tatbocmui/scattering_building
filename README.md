@@ -59,6 +59,9 @@ Thus, the total scattering field of the building with multiple windows can be ap
 ## Example Figure
 
 ![Building with Multiple Windows](images/GUI.png)
+
+Pattern by a single window.
+
 ![Pattern](images/pattern.png)
 ![Building design in Autodesk Inventor](images/building_rect.png)
 ![Building scale model](images/buildingModel.png)
@@ -66,6 +69,8 @@ Thus, the total scattering field of the building with multiple windows can be ap
 The accuracy of the KA method is validated by measurement results and results collected by HFSS Physical Optics.
 The frequency measurement is 5.9 GHz.
 ![Building measurement validity](images/validity_measurement.png)
+
+Calculation time of KA method is much more faster than HFSS Physical Optics.
 ![CalculationTime](images/calculationTime.png)
 
 The bistatic pattern of a 7-storey building when it is illuminated by a 4G LTE (700-MHz) incident plane wave.
