@@ -17,11 +17,16 @@ Additionally, calculating these scattering effects allows for optimizing communi
 
 ![Introduction signal propagation](images/introduction_signal_propagation.png)
 
-In this project, we focus on the analysis of electromagnetic wave scattering by a complex structure such as a building with multiple windows.
-The Kirchhoff Approximation (KA) method is utilized to model the scattering effects.
+Calculating the electromagnetic field distribution in a given area might be solved by two methods: full-wave simulators and approximation methods.
+However, by using full-wave simulators (HFSS, CST), simulating high-rise buildings poses significant computational challenges.
+These simulations can demand excessive memory and computation time, sometimes making them impossible to complete.
+To overcome these limitations, researchers have developed approximation methods to save time and resources.
+This research utilizes one such method, the Kirchhoff Approximation (KA), to compute the scattering from a single building.
+This approach then allows for the efficient calculation of fields in areas with multiple buildings, enabling a practical analysis of complex urban environments.
+
 The KA method approximates the scattering by assuming equivalent magnetic currents on virtually closed surfaces on the windows and the exterior of the building.
 These currents are induced by the incident plane wave and the subsequent interaction fields within the windows.
-The electromagnetic field inside the window apertures is represented in terms of rectangular waveguide modes.
+The EM field inside the window apertures is represented in terms of rectangular waveguide modes.
 This allows for the theoretical calculation of the reflection and transmission of the modal field at the window glass layers using waveguide modal theory.
 When the distance between windows is significantly larger than the wavelength,
 the interaction between the windows can be considered negligible.
