@@ -39,6 +39,10 @@ With the ultimate goal of optimizing antenna or radio frequency device placement
 the future work will expand the current simulation methods, which work well for single buildings, to encompass entire city-wide scenarios, 
 utilizing geographic-based electromagnetic wave propagation analysis and its visualization to inform and guide our optimization strategies.
 
+Presented below is a geographic map displaying the electromagnetic scattering levels at 2.4 GHz across Chuo University.
+These results were obtained using the SBR method. However, a key disadvantage of the SBR method lies in its demanding computational cost (more than 1 days for this result).
+![EMMap](images/chuo_univ_EMMap_v2.png)
+
 ## Features
 
 - **Implementation of Kirchhoff Approximation (KA)**: The code implements the KA method to calculate the scattered field from the building structure.
